@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eVP-Ls-AtE">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--123-->
+        <scene sceneID="eEa-Y7-Jc3">
+            <objects>
+                <viewController id="6Q4-zm-JGA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nEf-uQ-82B">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GgH-jw-EjN">
+                                <rect key="frame" x="86" y="260" width="243" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="侯佩岑">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="65"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="bab-je-k3l" kind="show" id="Ea5-0O-lxD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pSh-Id-314">
+                                <rect key="frame" x="82" y="502" width="264" height="127"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="徐若瑄" subtitle="" titleAlignment="center">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="65"/>
+                                    <color key="baseForegroundColor" systemColor="systemPinkColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="uSD-JB-ibI" kind="show" id="3Iq-Te-0cI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="yPf-KY-kfq"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="上一頁" selectedImage="square.and.arrow.up" catalog="system" id="59F-gV-qCb"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="123" id="K3L-vM-dT6"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dvY-ka-VqT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="918" y="-342"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vRp-Ei-UeW">
+            <objects>
+                <viewController id="uSD-JB-ibI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cNa-0m-Kse">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="徐若瑄" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6a7-x2-Hg7">
+                                <rect key="frame" x="88" y="597" width="239" height="157"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="65"/>
+                                <color key="textColor" red="0.96611279250000004" green="0.01786897112" blue="0.055471214550000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" systemColor="systemRedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="徐若瑄" translatesAutoresizingMaskIntoConstraints="NO" id="LjI-ev-2G2">
+                                <rect key="frame" x="20" y="44" width="374" height="516"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="2Qv-Rs-O0u"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="P9Y-dX-q19"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rjJ-Kg-99J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2352" y="-342"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="SPp-Kf-md2">
+            <objects>
+                <viewController id="bab-je-k3l" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4gO-If-uhq">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="侯佩岑" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cch-PC-84c">
+                                <rect key="frame" x="106" y="617" width="203" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="65"/>
+                                <color key="textColor" red="0.23644051150000001" green="0.59044238090000001" blue="0.86078917980000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="侯佩岑1" translatesAutoresizingMaskIntoConstraints="NO" id="VS9-Zd-7FQ">
+                                <rect key="frame" x="20" y="62" width="374" height="518"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vtY-7M-MBS"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="UaB-je-VO4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lgf-ZA-Gao" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1636" y="-342"/>
+        </scene>
+        <!--上一頁-->
+        <scene sceneID="nEv-vf-qi3">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bgC-vi-G6c" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="上一頁" image="square.and.arrow.up" catalog="system" id="6WC-QA-GUh"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="KWf-KQ-Sso">
+                        <rect key="frame" x="0.0" y="44" width="428" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="6Q4-zm-JGA" kind="relationship" relationship="rootViewController" id="FNY-ML-jho"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iKz-ag-fBH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1062.6168224299065" y="-1077.5377969762419"/>
+        </scene>
+        <!--開始-->
+        <scene sceneID="hQG-7q-aQu">
+            <objects>
+                <viewController id="0cF-uh-6dF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7HF-yM-QFx">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="下載 (1)" translatesAutoresizingMaskIntoConstraints="NO" id="1Lp-xA-HVn">
+                                <rect key="frame" x="43" y="269" width="328" height="378"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="efm-Oj-05J"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="開始" id="gjG-2C-spG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iQk-4h-lvl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1062.6168224299065" y="-1775.3779697624191"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="dNH-Gq-C87">
+            <objects>
+                <viewController id="4Xi-89-ZCv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GQq-nm-Sgi">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LAP-vm-H6R">
+                                <rect key="frame" x="0.0" y="174" width="414" height="350"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="cgK-D0-LE6">
+                                        <rect key="frame" x="0.0" y="100" width="800" height="150"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="侯佩岑" translatesAutoresizingMaskIntoConstraints="NO" id="YkY-gV-nWd">
+                                                <rect key="frame" x="0.0" y="11" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="徐若瑄" translatesAutoresizingMaskIntoConstraints="NO" id="aZz-6M-tdj">
+                                                <rect key="frame" x="496" y="11" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="侯佩岑1" translatesAutoresizingMaskIntoConstraints="NO" id="GVQ-eG-dX1">
+                                                <rect key="frame" x="103" y="8" width="330" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <viewLayoutGuide key="safeArea" id="dSZ-nV-Jpn"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="STK-zl-fEF"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="387-39-idL"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="600" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="MWv-6S-RHq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="NVm-O8-VlD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m6a-la-ABG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1816.8224299065419" y="-1775.3779697624191"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="3V5-lT-nK2">
+            <objects>
+                <viewController id="I3x-zt-aFL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NeM-n5-iW3">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="下載" translatesAutoresizingMaskIntoConstraints="NO" id="DgH-SG-vca">
+                                <rect key="frame" x="51.162364066280134" y="223" width="310.99999999999994" height="305"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="eks-ya-Oh9"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="bRN-mI-nQ8">
+                        <barButtonItem key="rightBarButtonItem" title="回返" id="hkV-3g-1BC"/>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ltU-2h-Erd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="212" y="-342"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4va-e7-udx">
+            <objects>
+                <viewController id="k8A-ie-lfE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HcG-7C-dmY">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="電影哆啦A夢：大雄的宇宙小戰爭2021 Doraemon The Movie- Nobita's Little Star Wars 2021 動畫   冒險 上映日期：2022-07-15" translatesAutoresizingMaskIntoConstraints="NO" id="MuR-sz-m96">
+                                <rect key="frame" x="87" y="114" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bbX-b2-zN9">
+                                <rect key="frame" x="87" y="309" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <string key="title">電影哆啦A夢：大雄的宇宙小戰爭 
+動畫   冒險 
+上映日期：2022-07-15</string>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="n76-gO-ErY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="UKw-bT-YC0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nU3-wi-pxv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4392" y="76"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="scN-NG-bF4">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="PgP-nI-eKw" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5My-3x-fZv">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="bgC-vi-G6c" kind="relationship" relationship="viewControllers" id="iw5-Am-LNx"/>
+                        <segue destination="4Xi-89-ZCv" kind="relationship" relationship="viewControllers" id="ZfB-Nd-tzz"/>
+                        <segue destination="KUh-E1-R9h" kind="relationship" relationship="viewControllers" id="pdZ-Ch-cbu"/>
+                        <segue destination="0cF-uh-6dF" kind="relationship" relationship="viewControllers" id="BDV-g7-lXE"/>
+                        <segue destination="6Q4-zm-JGA" kind="relationship" relationship="viewControllers" id="5tb-Yw-NFt"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KsZ-gN-gSE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="337.85046728971963" y="-1775.3779697624191"/>
+        </scene>
+        <!--上一頁-->
+        <scene sceneID="P39-f9-cDy">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="KUh-E1-R9h" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="上一頁" image="square.and.arrow.up" catalog="system" id="96Y-Dx-1hB" colorLabel="IBBuiltInLabel-Orange"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4aM-rd-Upb">
+                        <rect key="frame" x="0.0" y="44" width="428" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="I3x-zt-aFL" kind="relationship" relationship="rootViewController" id="Xg0-SR-pIU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EMb-hZ-UYU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-482" y="-342"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="VaE-3i-2sX">
+            <objects>
+                <viewController id="663-hA-RJe" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JGT-vs-Iug">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jd7-HW-MRq">
+                                <rect key="frame" x="100" y="303" width="227" height="182"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="雷神索爾：愛與雷霆 Thor- Love and Thunder 動作   冒險   奇幻 上映日期：2022-07-06 "/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="雷神索爾：愛與雷霆 Thor- Love and Thunder 動作   冒險   奇幻 上映日期：2022-07-06 片　　長：01時59分 發行公司：迪士尼 IMDb分數：6.8" translatesAutoresizingMaskIntoConstraints="NO" id="F6y-jp-pqp">
+                                <rect key="frame" x="87" y="133" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="QLB-n9-a6t"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="BBP-oU-8wt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UGr-8L-XAz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3664" y="-601"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vEA-nS-yhB">
+            <objects>
+                <viewController id="BR7-nD-ylH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Kch-Qa-hUK">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="邪門 Contorted 恐怖   懸疑:驚悚 上映日期：2022-07-15" translatesAutoresizingMaskIntoConstraints="NO" id="mk4-G6-Ile">
+                                <rect key="frame" x="87" y="126" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="smd-5U-H8D">
+                                <rect key="frame" x="87" y="346" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="邪門 Contorted                            恐怖   懸疑/驚悚                              上映日期：2022-07-15"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ExK-2R-ltY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="gVV-Ix-Zph"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ayz-RY-9WL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-5103" y="-601"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="oes-R7-oeL">
+            <objects>
+                <viewController id="ARZ-dd-0BV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="f7i-Tg-25j">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="失業風暴 Between Two Worlds 劇情 上映日期：2022-07-15" translatesAutoresizingMaskIntoConstraints="NO" id="RPK-bP-PHP">
+                                <rect key="frame" x="87" y="125" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7M2-P9-Oqq">
+                                <rect key="frame" x="87" y="341" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="失業風暴 Between Two Worlds                                      劇情                                              上映日期：2022-07-15"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="lP8-rT-oDp"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="jhb-N1-t4D"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ygx-B9-2jk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4392" y="-601"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Csa-ka-mOf">
+            <objects>
+                <viewController id="GhB-eQ-e3D" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ehJ-R3-xdk">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="沼澤謀殺案 Where the Crawdads Sing 劇情   懸疑:驚悚 上映日期：2022-09-30" translatesAutoresizingMaskIntoConstraints="NO" id="IeX-dd-7zn">
+                                <rect key="frame" x="87" y="116" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lys-VV-TwG">
+                                <rect key="frame" x="87" y="319" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <string key="title">沼澤謀殺案 Where the Crawdads Sing                                              劇情    懸疑/驚悚                                                     上映日期：2022-09-30</string>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="g18-GV-aXd"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="JIG-wj-GsO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VkB-xW-QPN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3664" y="76"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Epe-mB-ANp">
+            <objects>
+                <viewController id="aJg-hI-sAs" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="woc-ZE-MXe">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="捍衛戰士：獨行俠 Top Gun- Maverick 動作   劇情 上映日期：2022-05-25" translatesAutoresizingMaskIntoConstraints="NO" id="RbA-54-M8J">
+                                <rect key="frame" x="87" y="135" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J0w-Mb-WG1">
+                                <rect key="frame" x="87" y="344" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <string key="title">捍衛戰士：獨行俠 Top Gun- Maverick 
+動作   劇情 
+上映日期：2022-05-25</string>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ljk-s7-NHd"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dba-5U-2Mf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="St5-QW-Fgi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2955" y="-601"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ztd-6e-lq0">
+            <objects>
+                <viewController id="Rvm-hi-aKN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6bN-qb-U9m">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dKS-Tc-7kx">
+                                <rect key="frame" x="20" y="282" width="355" height="191"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="電影熱搜榜">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="60"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Wxq-V2-HKa" kind="show" id="Atl-Sm-nht"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="tFj-Vy-PVJ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9sQ-54-q8M"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NKX-Qb-fbH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3587.3831775700933" y="-1322.4622030237581"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="1tw-a3-42S">
+            <objects>
+                <tableViewController id="Wxq-V2-HKa" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" sectionFooterHeight="-1" id="Atj-8X-1IC">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <sections>
+                            <tableViewSection id="e4G-6G-hex">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="198" id="oM5-tZ-gM1">
+                                        <rect key="frame" x="0.0" y="44.666666030883789" width="428" height="198"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="oM5-tZ-gM1" id="YL7-Mz-L8Q">
+                                            <rect key="frame" x="0.0" y="0.0" width="428" height="198"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a6Y-uF-HKK">
+                                                    <rect key="frame" x="270" y="35" width="124" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" title="雷神索爾"/>
+                                                </button>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="雷神索爾：愛與雷霆 Thor- Love and Thunder 動作   冒險   奇幻 上映日期：2022-07-06 片　　長：01時59分 發行公司：迪士尼 IMDb分數：6.8" translatesAutoresizingMaskIntoConstraints="NO" id="cqN-Ll-lF8">
+                                                    <rect key="frame" x="20" y="35" width="240" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="663-hA-RJe" kind="show" id="f0k-l3-1CK"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="198" id="j84-M5-Bd5">
+                                        <rect key="frame" x="0.0" y="242.66666603088379" width="428" height="198"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="j84-M5-Bd5" id="wcg-0P-htJ">
+                                            <rect key="frame" x="0.0" y="0.0" width="428" height="198"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A1I-TJ-lEZ">
+                                                    <rect key="frame" x="270" y="35" width="124" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" title="侏羅紀世界"/>
+                                                </button>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="侏羅紀世界：統霸天下 Jurassic World Dominion 動作   冒險   科幻 上映日期：2022-06-08 片　　長：02時27分 發行公司：環球 IMDb分數：5.9" translatesAutoresizingMaskIntoConstraints="NO" id="HJb-Zz-Hf9">
+                                                    <rect key="frame" x="20" y="35" width="240" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="QVt-UF-hkj" kind="show" id="odF-Wz-oxg"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="198" id="gYk-qE-EeY">
+                                        <rect key="frame" x="0.0" y="440.66666603088379" width="428" height="198"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gYk-qE-EeY" id="ydI-i5-ZTz">
+                                            <rect key="frame" x="0.0" y="0.0" width="428" height="198"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jRs-0M-5nd">
+                                                    <rect key="frame" x="270" y="35" width="124" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" title="捍衛戰士"/>
+                                                </button>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="捍衛戰士：獨行俠 Top Gun- Maverick 動作   劇情 上映日期：2022-05-25" translatesAutoresizingMaskIntoConstraints="NO" id="Yc9-o5-Dxp">
+                                                    <rect key="frame" x="20" y="35" width="240" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="aJg-hI-sAs" kind="show" id="qul-Xg-2TP"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="198" id="MtZ-vs-cel">
+                                        <rect key="frame" x="0.0" y="638.66666603088379" width="428" height="198"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MtZ-vs-cel" id="egn-nR-cBE">
+                                            <rect key="frame" x="0.0" y="0.0" width="428" height="198"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZZc-9j-ENz">
+                                                    <rect key="frame" x="270" y="35" width="124" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" title="電影哆啦A夢"/>
+                                                </button>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="電影哆啦A夢：大雄的宇宙小戰爭2021 Doraemon The Movie- Nobita's Little Star Wars 2021 動畫   冒險 上映日期：2022-07-15" translatesAutoresizingMaskIntoConstraints="NO" id="Ta1-dA-R0a">
+                                                    <rect key="frame" x="20" y="35" width="240" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="k8A-ie-lfE" kind="show" id="7g7-J2-oKe"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="198" id="wBf-E7-LLa">
+                                        <rect key="frame" x="0.0" y="836.66666603088379" width="428" height="198"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wBf-E7-LLa" id="hgk-kL-a1Q">
+                                            <rect key="frame" x="0.0" y="0.0" width="428" height="198"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TwG-rd-3Wa">
+                                                    <rect key="frame" x="270" y="35" width="124" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" title="邪門 "/>
+                                                </button>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="邪門 Contorted 恐怖   懸疑:驚悚 上映日期：2022-07-15" translatesAutoresizingMaskIntoConstraints="NO" id="eKG-fH-RHW">
+                                                    <rect key="frame" x="20" y="35" width="240" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="BR7-nD-ylH" kind="show" id="o3j-tF-DFR"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="198" id="1uH-3P-Mru">
+                                        <rect key="frame" x="0.0" y="1034.6666660308838" width="428" height="198"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1uH-3P-Mru" id="sWW-Zw-Y52">
+                                            <rect key="frame" x="0.0" y="0.0" width="428" height="198"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qiT-Gs-eQ4">
+                                                    <rect key="frame" x="270" y="35" width="124" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" title="失業風暴 "/>
+                                                </button>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="失業風暴 Between Two Worlds 劇情 上映日期：2022-07-15" translatesAutoresizingMaskIntoConstraints="NO" id="si6-PO-RVc">
+                                                    <rect key="frame" x="20" y="35" width="240" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="ARZ-dd-0BV" kind="show" id="Ita-d5-3Mf"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="198" id="uvy-js-GyH">
+                                        <rect key="frame" x="0.0" y="1232.6666660308838" width="428" height="198"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="uvy-js-GyH" id="5TH-G2-9MG">
+                                            <rect key="frame" x="0.0" y="0.0" width="428" height="198"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XCh-CL-3Xw">
+                                                    <rect key="frame" x="270" y="35" width="124" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" title="沼澤謀殺案 "/>
+                                                </button>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="沼澤謀殺案 Where the Crawdads Sing 劇情   懸疑:驚悚 上映日期：2022-09-30" translatesAutoresizingMaskIntoConstraints="NO" id="tj9-md-ZZ2">
+                                                    <rect key="frame" x="20" y="35" width="240" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="GhB-eQ-e3D" kind="show" id="z3r-6f-IfS"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="Wxq-V2-HKa" id="lEQ-pc-4rv"/>
+                            <outlet property="delegate" destination="Wxq-V2-HKa" id="fIb-FA-Q6P"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="XSM-im-TCM"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="49Z-9t-nf1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2764.4859813084108" y="-1322.4622030237581"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="g5W-P5-lgX">
+            <objects>
+                <viewController id="QVt-UF-hkj" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NZ1-Mc-nhp">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="侏羅紀世界：統霸天下 Jurassic World Dominion 動作   冒險   科幻 上映日期：2022-06-08 片　　長：02時27分 發行公司：環球 IMDb分數：5.9" translatesAutoresizingMaskIntoConstraints="NO" id="jqg-nf-1Eu">
+                                <rect key="frame" x="87" y="119" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FqZ-KH-aVA">
+                                <rect key="frame" x="87" y="320" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="侏羅紀世界：統霸天下 Jurassic World Dominion                            動作   冒險   科幻                            上映日期：2022-06-08 "/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="edj-vt-zvp"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="wHC-F7-1cF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jnh-w5-0gv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-5104" y="77"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="JfE-Cv-bPU">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eVP-Ls-AtE" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="UfN-f3-jSN"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ggX-CF-vVj">
+                        <rect key="frame" x="0.0" y="44" width="428" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Rvm-hi-aKN" kind="relationship" relationship="rootViewController" id="Lgu-cb-ihA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dfb-p4-mHz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4392.0560747663549" y="-1322.4622030237581"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="5tb-Yw-NFt"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
+        <image name="下載" width="185" height="123"/>
+        <image name="下載 (1)" width="219" height="123"/>
+        <image name="侏羅紀世界：統霸天下 Jurassic World Dominion 動作   冒險   科幻 上映日期：2022-06-08 片　　長：02時27分 發行公司：環球 IMDb分數：5.9" width="1080" height="1711"/>
+        <image name="侯佩岑" width="180" height="279"/>
+        <image name="侯佩岑1" width="827" height="1021"/>
+        <image name="失業風暴 Between Two Worlds 劇情 上映日期：2022-07-15" width="1080" height="1538"/>
+        <image name="徐若瑄" width="194" height="259"/>
+        <image name="捍衛戰士：獨行俠 Top Gun- Maverick 動作   劇情 上映日期：2022-05-25" width="1080" height="1601"/>
+        <image name="沼澤謀殺案 Where the Crawdads Sing 劇情   懸疑:驚悚 上映日期：2022-09-30" width="1280" height="1820"/>
+        <image name="邪門 Contorted 恐怖   懸疑:驚悚 上映日期：2022-07-15" width="800" height="1143"/>
+        <image name="雷神索爾：愛與雷霆 Thor- Love and Thunder 動作   冒險   奇幻 上映日期：2022-07-06 片　　長：01時59分 發行公司：迪士尼 IMDb分數：6.8" width="800" height="1185"/>
+        <image name="電影哆啦A夢：大雄的宇宙小戰爭2021 Doraemon The Movie- Nobita's Little Star Wars 2021 動畫   冒險 上映日期：2022-07-15" width="1080" height="1544"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

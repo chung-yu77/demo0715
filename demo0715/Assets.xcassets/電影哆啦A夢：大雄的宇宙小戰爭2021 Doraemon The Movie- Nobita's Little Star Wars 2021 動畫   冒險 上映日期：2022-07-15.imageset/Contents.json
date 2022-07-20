@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "電影哆啦A夢：大雄的宇宙小戰爭2021 Doraemon The Movie- Nobita's Little Star Wars 2021 動畫   冒險 上映日期：2022-07-15.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

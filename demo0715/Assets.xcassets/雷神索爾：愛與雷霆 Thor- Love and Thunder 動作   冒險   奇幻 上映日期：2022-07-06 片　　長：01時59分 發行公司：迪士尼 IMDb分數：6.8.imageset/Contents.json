@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "雷神索爾：愛與雷霆 Thor- Love and Thunder 動作   冒險   奇幻 上映日期：2022-07-06 片　　長：01時59分 發行公司：迪士尼 IMDb分數：6.8.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
